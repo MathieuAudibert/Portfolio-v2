@@ -1,13 +1,13 @@
 import styles from './App.module.css'
-import { About } from './components/about/About'
 import { Accueil } from './components/accueil/Accueil'
 import { Navbar } from './components/nav/Navbar'
+import { Technos } from './components/technos/Technos'
 
 function App() {
   return <div className={styles.App}>
     <Navbar />
     <Accueil />
-    <About />
+    <Technos />
   </div>
 }
 
