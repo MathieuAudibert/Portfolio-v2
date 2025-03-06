@@ -8,7 +8,10 @@
     padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
-    background-color: var();
+    background-color: rgba(40, 43, 48, 0.5);
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 .title{
@@ -16,18 +19,11 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
-    background-color: rgba(40, 43, 48, 0.5);
-    padding: 7px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    
 }
 
 .menu {
     display: flex;
-    background-color: rgba(40, 43, 48, 0.5);
-    padding: 7px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
 }
 
 .menuItems{
